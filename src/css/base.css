@@ -34,7 +34,7 @@ main:has(.back-link) {
 
     display: inline-block;
     padding: 12px 24px;
-    border: 2px solid #74e4ee;
+    border: 2px solid #1b556c;
     color: #090d0e;
     font-size: 20px;
     font-weight: bold;
@@ -44,13 +44,13 @@ main:has(.back-link) {
   }
 
   .galerry-list:hover {
-    background-color: #74e4ee;
+    background-color: #1b556c;
     color: white;
   }
   .form-list {
   display: inline-block;
     padding: 11px 34px;
-    border: 2px solid #74e4ee;
+    border: 2px solid #1b556c;
     color: #090d0e;
     font-size: 20px;
     font-weight: bold;
@@ -61,7 +61,7 @@ main:has(.back-link) {
   }
   
   .form-list:hover {
-    background-color: #74e4ee;
+    background-color: #1b556c;
     color: white;
   }
   
