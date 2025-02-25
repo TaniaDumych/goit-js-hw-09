@@ -11,6 +11,7 @@ grid-template-columns: repeat(3, 1fr);
 gap: 24px;
 width: 60vw;
 height: 60vh;
+margin-top: -5px;
 }
 .gallery-item {
 display: flex;
@@ -23,22 +24,18 @@ justify-content: center;
 object-fit: cover;
 }
 .main-title {
-padding: 12px 24px;
- background-color: #1b556c;
+display: inline-block;
+padding: 14px 32px;
+background-color: #1b556c;
 color: white;
 text-decoration: none;
-border-radius: 7px;
-box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
- transition: background-color 0.3s ease, transform 0.2s ease;
+ border-radius: 5px;
+ border: 2px solid #14424f;
+box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
+transition: background-color 0.3s ease, transform 0.2s ease;
 text-align: center;
-}
-.main-title:hover {
- background-color: #1b556c;
-transform: scale(1.05);
-}
-.main-title:active {
-background-color: #1b556c;
-transform: scale(1);
+ font-size: 24px;
+font-weight: bold;
 }
 .back-link {
 position: fixed;
